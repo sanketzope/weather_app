@@ -21,8 +21,8 @@ class HomeScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const SizedBox(
-              height: 300,
-              width: 300,
+              height: 250,
+              width: 250,
               child: Image(image: AssetImage('assets/images/homescreen.png')),
             ),
             const Text(

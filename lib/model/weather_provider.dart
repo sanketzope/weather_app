@@ -18,7 +18,7 @@ class WeatherProvider with ChangeNotifier {
     _isLoading = true;
     notifyListeners();
 
-    final url = 'https://api.openweathermap.org/data/2.5/weather?q=$city&appid=252e6d6dd607174c20b8ca2b9670a1f6&units=metric';
+    final url = 'https://api.openweathermap.org/data/2.5/weather?q=$city&appid=YOUR_API_KEY&units=metric';
     final response = await http.get(Uri.parse(url));
 
     if (response.statusCode == 200) {
