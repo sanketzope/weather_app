@@ -19,7 +19,7 @@ class WeatherProvider with ChangeNotifier {
     _isLoading = true;
     notifyListeners();
 
-    final url = 'https://api.openweathermap.org/data/2.5/weather?q=$city&appid=${dotenv.env['OPENWEATHERMAP_API_KEY']}&units=metric';
+    final url = 'https://api.openweathermap.org/data/2.5/weather?q=$city&appid=YOUR_API_KEY&units=metric';
     final response = await http.get(Uri.parse(url));
 
     if (response.statusCode == 200) {

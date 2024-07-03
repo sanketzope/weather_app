@@ -26,11 +26,7 @@ flutter pub get
 
 3. Configure API key
 
-Create a .env file in the root directory of your project and add your OpenWeatherMap API key:
-
-```bash
-OPENWEATHERMAP_API_KEY=your_api_key_here
-```
+Please copy your API key and paste it into the lib/model/weather_details_screen.dart file. Specifically, replace YOUR_API_KEY with your actual key in the final URL.
 
 4. Run the app
 
