@@ -26,7 +26,7 @@ flutter pub get
 
 3. Configure API key
 
-Please copy your API key and paste it into the lib/model/weather_details_screen.dart file. Specifically, replace YOUR_API_KEY with your actual key in the final URL.
+Please copy your API key and paste it into the lib/model/weather_provider.dart file. Specifically, replace YOUR_API_KEY with your actual key in the final URL.
 
 4. Run the app
 
