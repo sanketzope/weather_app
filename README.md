@@ -1,16 +1,21 @@
-# weather_app
 
-A new Flutter project.
+# Weather App
 
-## Getting Started
+A simple weather app built with Flutter that displays current weather information for a given city using the OpenWeatherMap API.
 
-This project is a starting point for a Flutter application.
+### Getting Started
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+OpenWeatherMap API key: [Get API key](https://openweathermap.org/)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. Clone the repository
+
+* git clone https://github.com/sanketzope/weather-app.git
+* cd weather-app
+
+2. Install dependencies
+
+flutter pub get
