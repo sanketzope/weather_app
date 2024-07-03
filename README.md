@@ -13,7 +13,7 @@ OpenWeatherMap API key: [Get API key](https://openweathermap.org/)
 
 1. Clone the repository
 
-* git clone https://github.com/sanketzope/weather-app.git
+* git clone https://github.com/sanketzope/weather_app
 * cd weather-app
 
 2. Install dependencies
